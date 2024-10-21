@@ -1,0 +1,73 @@
+/* the styles for the type selectors */
+html{
+    background-color: #D8BFD8;
+    background: #E6E6FA;;
+}
+body{font-family: Copperplate, Papyrus, fantasy;
+font-size: 100%;
+width:96%;
+max-width: 1200px;           /*maximum width of page */
+}
+aside, h1, h2 {
+    margin: 0;
+    padding: 0;
+    color: darkcyan;
+}
+aside { 
+    margin-bottom: 1em;}
+/* the styles for th header */
+header { width: 100%;}         /* full width of body */
+header img { width: 101.010101%;  /* 1000÷990×100 */
+max-width: 1200px;                /* native size */ 
+min-width: 600px;                 /* minimum size */
+float: none;
+    margin-left: 2.0202%;             /* 20÷990×100 */}
+/* the styles for the navigation menu */
+#nav_menu ul { width: 100%;}    /* width of body */
+#nav_menu ul li {width: 20%;}   /* 198÷990×100 */
+#nav_menu ul li:hover ul {width: 100%;}  /* width of list item */
+#nav_menu ul li:hover ul li:hover ul li {width: 100%;} /*width of list*/
+#nav_menu ul li a{
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    /* padding above and below a elements */
+    text-decoration: none;
+    background-color: #C71585;
+    color: white;
+    font-weight: normal;
+    border-right: 2px solid darkcyan;
+}
+li{
+    display:inline-block;
+    padding: 10px;
+    margin-right: 5px;
+
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/*styles for main*/ 
+main { width: 54.0404%;          /*535÷990×100 */
+float:left;
+    margin-left: 2.0202%;        /*20÷990×100 */
+    padding: 1.5em 2.52525% 0 0;  /*25÷990×100 */}
+img { max-width: 100%;}      /* width of main */
+/* styles for the sidebar */
+aside { width: 35.35353%;       /*350÷990×100 */
+float:left;
+padding: 2.0202% 0 0;           /*20÷990×100 */      
+margin: 1.5em 2.0202% 0 0;      /*20÷990×100 */}
+aside h2 { text-align: center; 
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 1.25em;}
+/* styles for the footer */
+footer {width: 100%;}        /*width of body*/
+footer p { font-size: .75em;
+text-align: right;
+     clear: both;
+    border-top: 2px solid #E6E6FA ;
+    text-align: center;
+    color: darkcyan;
+margin-right: 2.0202%;           /* 20÷990×100 */}
