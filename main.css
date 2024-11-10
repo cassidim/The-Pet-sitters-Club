@@ -80,7 +80,12 @@ div.desc {
 }
 div p {margin-left: 6px;
     margin-right: 6px;
-    flex-wrap: wrap;}
+    flex-wrap:wrap;}
+#accordion div {
+    overflow:auto;
+    height: 0;
+    transition: height 1s ease-in-out;
+}
 /* styles for the sidebar */
 aside { width: 35.35353%;       /*350÷990×100 */
 float:left;
@@ -90,9 +95,10 @@ aside h2 { text-align: center;
     font-family: Copperplate, Papyrus, fantasy;
     font-size: 1.25em;}
 label{
-    float: left;
     width: 5em;
     text-align: right;
+display: flex;
+
 }
 input{
     margin-left: 1em;
@@ -102,7 +108,10 @@ input{
     margin-left: 7em;
 }
 div{
-    display: flex;} 
+    display:flex;
+    margin-top: auto;
+margin-bottom: auto;
+} 
 /* styles for the footer */
 footer {width: 100%;}        /*width of body*/
 footer p { font-size: .75em;
