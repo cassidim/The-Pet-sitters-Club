@@ -1,10 +1,10 @@
 /* the styles for the type selectors */
 html{
     background-color: #D8BFD8 ;
-    background: #E6E6FA!important;
+    background: #E6E6FA !important;
 }
 body{font-family: Copperplate, Papyrus, fantasy;
-    background: #E6E6FA!important;
+    background: #E6E6FA !important;
 font-size: 100%;
 width:100%;
 max-width: 1200px;           /*maximum width of page */
@@ -69,9 +69,6 @@ div.gallery {
 div.gallery:hover {
   border: 1px solid #777;
 }
-div.class {
-    flex: auto;
-}
 div.gallery img {
   width: 100%;
   height: auto;
@@ -95,7 +92,7 @@ aside h2 { text-align: center;
 label{
     width: 5em;
     text-align: right;
-display: flex;
+    display: flex;
 
 }
 input{
@@ -104,11 +101,6 @@ input{
 }
 #button{
     margin-left: 7em;
-}
-div{
-    display:flex;
-    margin-top: auto;
-margin-bottom: auto;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
@@ -125,13 +117,17 @@ margin-bottom: auto;
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color: skyblue;
+}
 /* styles for the footer */
-footer {width: 100%;}        /*width of body*/
+footer {width: 100%;
+      clear: both;
+        }        
+        
+
 footer p { font-size: .75em;
-text-align: right;
-     clear: both;
-    border-top: 2px solid #E6E6FA ;
-    text-align: center;
-    color: darkcyan;
-margin-right: 2.0202%;           /* 20÷990×100 */}
-/* styles for the div */
+           text-align: right;
+           border-top: 2px solid #E6E6FA ;
+           text-align: center;
+           color: darkcyan;
+           margin-right: 2.0202%;  
+}
